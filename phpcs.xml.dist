@@ -32,10 +32,6 @@
 		<exclude name="HM.Debug.ESLint" />
 	</rule>
 
-	<!-- Exclude third-party dependencies -->
-	<exclude-pattern>inc/updater/class-lite\.php</exclude-pattern>
-	<exclude-pattern>inc/updater/class-base58btc\.php</exclude-pattern>
-
 	<!-- Exclude language files -->
 	<exclude-pattern>languages/*</exclude-pattern>
 
@@ -44,7 +40,10 @@
 
 	<!-- Exclude the main plugin file from namespace file rules -->
 	<rule ref="HM.Files.FunctionFileName.WrongFile">
-		<exclude-pattern>plugin\.php</exclude-pattern>
+		<exclude-pattern>fair-beta-tester\.php</exclude-pattern>
+	</rule>
+	<rule ref="HM.Files.NamespaceDirectoryName.NoIncDirectory">
+		<exclude-pattern>fair-beta-tester\.php</exclude-pattern>
 	</rule>
 
 	<!-- Exclude the unit tests from the file name rules -->
@@ -53,12 +52,6 @@
 	</rule>
 	<rule ref="HM.Files.ClassFileName">
 		<exclude-pattern>tests/phpunit/*</exclude-pattern>
-	</rule>
-
-	<rule ref="HM.Functions.NamespacedFunctions.MissingNamespace">
-		<exclude-pattern>inc/icons/svg\.php</exclude-pattern>
-		<exclude-pattern>inc/compatibility/php-polyfill\.php</exclude-pattern>
-		<exclude-pattern>inc/compatibility/wp-polyfill\.php</exclude-pattern>
 	</rule>
 
 	<!-- Exclude the unit tests from the namespace rules -->
@@ -71,12 +64,7 @@
 
 	<!-- Exclude some files from the side effects rules -->
 	<rule ref="PSR1.Files.SideEffects">
-		<exclude-pattern>plugin\.php</exclude-pattern>
-		<exclude-pattern>inc/icons/svg\.php</exclude-pattern>
+		<exclude-pattern>fair-beta-tester\.php</exclude-pattern>
 		<exclude-pattern>tests/phpunit/bootstrap\.php</exclude-pattern>
-	</rule>
-
-	<rule ref="Squiz.PHP.EmbeddedPhp">
-		<exclude-pattern>inc/settings/namespace\.php</exclude-pattern>
 	</rule>
 </ruleset>

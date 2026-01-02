@@ -14,8 +14,6 @@
  * Primary Branch: main
  * Release Asset: true
  * Plugin ID:
- *
- * @phpcs:disable HM.Files.NamespaceDirectoryName.NoIncDirectory
  */
 
 namespace FAIR\Beta_Tester;
