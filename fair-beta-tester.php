@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FAIR Connect Beta Tester
  * Description: Enable beta testing for FAIR Connect plugin.
- * Version: 0.9.0
+ * Version: 0.9.1
  * Author: FAIR Contributors
  * Author URI: https://fair.pm
  * Security: security@fair.pm
@@ -10,9 +10,6 @@
  * Requires at least: 5.4
  * Requires PHP: 7.4
  * Network: true
- * GitHub Plugin URI: https://github.com/fairpm/fair-beta-tester
- * Primary Branch: main
- * Release Asset: true
  * Update URI: https://fair.git-updater.com
  * Plugin ID:
  * Requires Plugins: fair-plugin
