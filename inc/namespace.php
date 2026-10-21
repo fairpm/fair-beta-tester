@@ -3,6 +3,8 @@
  * FAIR Connect Beta Tester Plugin
  *
  * @package FAIR\Beta_Tester
+ *
+ * @phpcs:disable PSR12.Files.FileHeader.IncorrectOrder
  */
 
 namespace FAIR\Beta_Tester;
