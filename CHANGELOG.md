@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.9.2 / 2026-10-21
+* update `afragen/git-updater-lite`
+
 #### 0.9.1 / 2026-07-18
 * remove Git Updater and only use Git Updater Lite
 

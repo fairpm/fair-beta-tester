@@ -17,7 +17,7 @@
     "require-dev": {
         "yoast/phpunit-polyfills": "*",
         "nimut/phpunit-merger": "*",
-        "humanmade/coding-standards": "^1.2"
+        "humanmade/coding-standards": "^2"
     },
     "config": {
         "allow-plugins": {
